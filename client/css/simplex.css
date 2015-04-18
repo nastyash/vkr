@@ -1,0 +1,18 @@
+.dim-div {
+    width: 200px;
+    margin-top: 16px;
+}
+.dim-div .dim-input {
+    width: 30%;
+    display: inline-block;
+    margin-left: 8px;
+}
+.ver-div, .btn-go{
+    margin-top: 16px;
+}
+
+.ver-div .coord-div {
+    display: inline-block;
+    margin-left: 8px;
+    min-width: 100px;
+}
