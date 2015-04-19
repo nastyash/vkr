@@ -2,7 +2,7 @@
  * Created by Anastasia on 28/01/15.
  */
 
-var smplxApp = angular.module('smplxApp', []);
+var smplxApp = angular.module('smplxApp', ['ngSanitize']);
 
 
 smplxApp.controller('ShowInputFields', ['$scope', function($scope) {
@@ -59,6 +59,9 @@ smplxApp.controller('ShowInputFields', ['$scope', function($scope) {
         var ksi = findKsi(l);
         var p = findP(l);
         var alpha = findAlpha(d);
+        $scope.polynoms = l.map(function(e) {
+          return renderResult(e).join('');
+        });
         console.table(d);
         console.table(end_points);
         console.log(alpha, ksi, (p-1) * ($scope.smplxDim + 1)/2 + 1);
@@ -85,8 +88,21 @@ smplxApp.controller('ShowInputFields', ['$scope', function($scope) {
         console.log(alpha);
         console.table(x);
         console.table(barC);
-
     }
+
+     renderResult = function(a) {
+      return a.map(function(e, index) {
+        if (index === 0) {
+          return e + "*x<sub>" + (index + 1) + "</sub>";
+        } else {
+          if (e >= 0) {
+            return " + " + e + "*x<sub>" + (index + 1) + "</sub>";
+          } else {
+            return " - " + (Math.abs(e)) + "*x<sub>" + (index + 1) + "</sub>";
+          }
+        }
+      });
+    };
 }
 ]);
 

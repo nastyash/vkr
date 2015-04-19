@@ -48,5 +48,5 @@ gulp.task('watch', function() {
     gulp.watch('./client/*.html', ['html']);
 });
 //запускаем всё это дело
-gulp.task('default', ['bower', 'css', 'js', 'html'/*, 'watch'*/]);
+gulp.task('default', ['bower', 'css', 'js', 'html', 'watch']);
 

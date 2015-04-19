@@ -7,15 +7,15 @@
     <link rel="stylesheet" href="assets/simplex.css">
     <script src="assets/jquery/dist/jquery.js"></script>
     <script src="assets/angular/angular.js"></script>
+    <script src="assets/angular-sanitize/angular-sanitize.js"></script>
     <script src="assets/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="assets/mathjs/dist/math.js"></script>
     <script src="assets/simplex.js"></script>
     <script src="assets/mymath.js"></script>
 </head>
     <body  ng-controller="ShowInputFields">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-6">
                     <form>
                         <div class="dim-div"> Simplex dimension:
                             <input type="number" class="form-control dim-input" name="smplxDim" min="2" max="10" data-ng-model="smplxDim">
@@ -28,8 +28,13 @@
                         </div>
                         <button type="button" class="btn btn-primary btn-go" ng-click="calculate()">GO!</button>
                     </form>
+                    <div ng-show="polynoms">
+                        <div ng-repeat="value in polynoms track by $index">
+                            λ<sub>{{$index+1}}</sub> = <span ng-bind-html="value"></span>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-10">
+                <div class="col-md-6">
                     <form>
                         <div class="ver-div">
                         <div class="coord-div" ng-repeat="coord in vector  track by $index">
@@ -39,8 +44,6 @@
                         </div>
                         <button type="button" class="btn btn-primary btn-go" ng-click="calculateVector()">GO!</button>
                     </form>
-                </div>
-                <div class="col-md-10">
                     <form>
                         <div class="ver-div" ng-repeat="vertex in v  track by $index">
                             v<sup>({{$index+1}})</sup>
@@ -50,8 +53,6 @@
                         </div>
                         <button type="button" class="btn btn-primary btn-go" ng-click="calculateV()">GO!</button>
                     </form>
-                </div>
-                <div class="col-md-2">
                 </div>
             </div>
         </div>
