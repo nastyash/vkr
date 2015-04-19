@@ -1,0 +1,974 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.18)  19 APR 2015 23:20
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**vkr.tex
+(./vkr.tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/extsizes/extsizes.sty
+Package: extsizes 1996/10/08 v1.0 Non Standard LaTeX Package
+
+
+Package ExtSizes Warning: It is better to use one of the extsizes classes,
+ if you can.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/extsizes/size14.clo
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2014/04/30 v1.2b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/cyrillic/cp1251.def
+File: cp1251.def 1999/11/16 v1.0d Input encoding file
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/t2/mathtext.sty
+Package: mathtext 1999/01/28 v1.0 transparent text-and-math defs
+LaTeX Info: Redefining \halign on input line 111.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/03/24 3.9k The Babel package
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/03/24 3.9k Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel-russian/russianb.ldf
+Language: russian 2013/04/13 1.3a Russian support from the babel system
+
+
+Package babel Warning: No Cyrillic font encoding has been loaded so far.
+(babel)                A font encoding should be declared before babel.
+(babel)                Default `T2A' encoding will be loaded  on input line 111
+.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/cyrillic/t2aenc.def
+File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
+\symT2Aletters=\mathgroup4
+)
+Package babel Info: Making " an active character on input line 147.
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/cyrillic/t2aenc.def
+File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
+LaTeX Font Info:    Redeclaring font encoding T2A on input line 38.
+LaTeX Font Info:    Redeclaring symbol font `T2Aletters' on input line 38.
+LaTeX Font Info:    Overwriting symbol font `T2Aletters' in version `normal'
+(Font)                  T2A/cmr/m/n --> T2A/cmr/m/n on input line 38.
+LaTeX Font Info:    Overwriting symbol font `T2Aletters' in version `bold'
+(Font)                  T2A/cmr/m/n --> T2A/cmr/m/n on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\textendash on input line 7
+0.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrdash on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\textemdash on input line 7
+2.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\textcompwordmark on input 
+line 73.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\textvisiblespace on input 
+line 74.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\textdollar on input line 7
+5.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\textless on input line 76.
+
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\textgreater on input line 
+77.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\textbackslash on input lin
+e 78.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\textasciicircum on input l
+ine 79.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\textunderscore on input li
+ne 80.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\textbraceleft on input lin
+e 81.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\textbar on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\textbraceright on input li
+ne 83.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\textasciitilde on input li
+ne 84.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\textnumero on input line 8
+5.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\textcurrency on input line
+ 86.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\textsection on input line 
+87.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\textquotedbl on input line
+ 88.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\textquoteleft on input lin
+e 89.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\textquoteright on input li
+ne 90.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\textquotedblleft on input 
+line 91.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\textquotedblright on input
+ line 92.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\quotedblbase on input line
+ 93.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRpalochka on input line 
+94.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrlangle on input line 95
+.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrrangle on input line 96
+.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\guillemotleft on input lin
+e 97.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\guillemotright on input li
+ne 98.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\i on input line 99.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\j on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRA on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyra on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRB on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrb on input line 105.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRV on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrv on input line 107.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRG on input line 108.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrg on input line 109.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRD on input line 110.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrd on input line 111.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRE on input line 112.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyre on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRZH on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrzh on input line 115.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRZ on input line 116.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrz on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRI on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyri on input line 119.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRISHRT on input line 120
+.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrishrt on input line 121
+.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRK on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrk on input line 123.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRL on input line 124.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrl on input line 125.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRM on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrm on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRN on input line 128.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrn on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRO on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyro on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRP on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrp on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRR on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrr on input line 135.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRS on input line 136.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrs on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRT on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrt on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRU on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyru on input line 141.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRF on input line 142.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrf on input line 143.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRH on input line 144.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrh on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRC on input line 146.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrc on input line 147.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRCH on input line 148.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrch on input line 149.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRSH on input line 150.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrsh on input line 151.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRSHCH on input line 152.
+
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrshch on input line 153.
+
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRHRDSN on input line 154
+.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrhrdsn on input line 155
+.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRERY on input line 156.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrery on input line 157.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRSFTSN on input line 158
+.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrsftsn on input line 159
+.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYREREV on input line 160.
+
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrerev on input line 161.
+
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRYU on input line 162.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyryu on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRYA on input line 164.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrya on input line 165.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRGUP on input line 166.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrgup on input line 167.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRGHCRS on input line 168
+.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrghcrs on input line 169
+.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRDJE on input line 170.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrdje on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRTSHE on input line 172.
+
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrtshe on input line 173.
+
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRSHHA on input line 174.
+
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrshha on input line 175.
+
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRZHDSC on input line 176
+.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrzhdsc on input line 177
+.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRZDSC on input line 178.
+
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrzdsc on input line 179.
+
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRLJE on input line 180.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrlje on input line 181.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRYI on input line 182.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyryi on input line 183.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRKDSC on input line 184.
+
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrkdsc on input line 185.
+
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRKBEAK on input line 186
+.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrkbeak on input line 187
+.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRKVCRS on input line 188
+.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrkvcrs on input line 189
+.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRAE on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrae on input line 191.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRNDSC on input line 192.
+
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrndsc on input line 193.
+
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRNG on input line 194.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrng on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRDZE on input line 196.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrdze on input line 197.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYROTLD on input line 198.
+
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrotld on input line 199.
+
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRSDSC on input line 200.
+
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrsdsc on input line 201.
+
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRUSHRT on input line 202
+.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrushrt on input line 203
+.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRY on input line 204.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyry on input line 205.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRYHCRS on input line 206
+.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyryhcrs on input line 207
+.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRHDSC on input line 208.
+
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrhdsc on input line 209.
+
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRDZHE on input line 210.
+
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrdzhe on input line 211.
+
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRCHVCRS on input line 21
+2.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrchvcrs on input line 21
+3.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRCHRDSC on input line 21
+4.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrchrdsc on input line 21
+5.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRIE on input line 216.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrie on input line 217.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRSCHWA on input line 218
+.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrschwa on input line 219
+.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRNJE on input line 220.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrnje on input line 221.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRYO on input line 222.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyryo on input line 223.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRII on input line 224.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrii on input line 225.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRJE on input line 226.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrje on input line 227.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRQ on input line 228.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrq on input line 229.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\CYRW on input line 230.
+LaTeX Font Info:    Redeclaring math symbol \T2Amath\cyrw on input line 231.
+)
+LaTeX Font Info:    Try loading font information for T2A+cmr on input line 100.
+
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+\lst@mode=\count89
+\lst@gtempboxa=\box26
+\lst@token=\toks17
+\lst@length=\count90
+\lst@currlwidth=\dimen104
+\lst@column=\count91
+\lst@pos=\count92
+\lst@lostspace=\dimen105
+\lst@width=\dimen106
+\lst@newlines=\count93
+\lst@lineno=\count94
+\lst@maxwidth=\dimen107
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
+\c@lstnumber=\count95
+\lst@skipnumbers=\count96
+\lst@framebox=\box27
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/03/04 1.5c listings configuration
+))
+Package: listings 2014/03/04 1.5c (Carsten Heinz)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/moreverb/moreverb.sty
+Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks18
+\verbatim@line=\toks19
+\verbatim@in@stream=\read1
+)
+\tab@position=\count97
+\tab@size=\count98
+\listing@line=\count99
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip43
+\thm@postskip=\skip44
+\thm@headsep=\skip45
+\dth@everypar=\toks25
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks26
+\ex@=\dimen108
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen109
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count100
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count101
+\leftroot@=\count102
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count103
+\DOTSCASE@=\count104
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen110
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+\symOMLletters=\mathgroup6
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\symOMSletters=\mathgroup7
+\macc@depth=\count105
+\c@MaxMatrixCols=\count106
+\dotsspace@=\muskip10
+\c@parentequation=\count107
+\dspbrk@lvl=\count108
+\tag@help=\toks27
+\row@=\count109
+\column@=\count110
+\maxfields@=\count111
+\andhelp@=\toks28
+\eqnshift@=\dimen111
+\alignsep@=\dimen112
+\tagshift@=\dimen113
+\tagwidth@=\dimen114
+\totwidth@=\dimen115
+\lineht@=\dimen116
+\@envbody=\toks29
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks30
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup8
+\symAMSb=\mathgroup9
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count112
+\Gm@cntv=\count113
+\c@Gm@tempcnt=\count114
+\Gm@bindingoffset=\dimen117
+\Gm@wd@mp=\dimen118
+\Gm@odd@mp=\dimen119
+\Gm@even@mp=\dimen120
+\Gm@layoutwidth=\dimen121
+\Gm@layoutheight=\dimen122
+\Gm@layouthoffset=\dimen123
+\Gm@layoutvoffset=\dimen124
+\Gm@dimlist=\toks31
+)
+(./vkr.aux
+
+LaTeX Warning: Label `sigma_v' multiply defined.
+
+
+LaTeX Warning: Label `theorem2' multiply defined.
+
+)
+\openout1 = `vkr.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+ (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count115
+\scratchdimen=\dimen125
+\scratchbox=\box30
+\nofMPsegments=\count116
+\nofMParguments=\count117
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen126
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
+\everyMPtoPDFconversion=\toks33
+) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count121
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-40.1381pt
+* \headheight=14.0pt
+* \headsep=25.0pt
+* \topskip=14.0pt
+* \footskip=30.0pt
+* \marginparwidth=15.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Try loading font information for U+lasy on input line 40.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 40.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 40.
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 40.
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <7> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 40.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 40.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
+LaTeX Font Info:    Try loading font information for U+msa on input line 40.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 40.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./vkr.
+toc)
+\tf@toc=\write3
+\openout3 = `vkr.toc'.
+
+ [1]
+[2]
+Overfull \hbox (5.17438pt too wide) in paragraph at lines 96--96
+[]\T2A/cmr/bx/n/20.74 Геометрические ха-рак-те-ри-сти-ки n-мерного
+ []
+
+
+Overfull \hbox (10.43623pt too wide) in paragraph at lines 97--97
+[]\T2A/cmr/bx/n/17.28 Некоторые свой-ста ба-зис-ных мно-го-чле-нов лагран-
+ []
+
+[3] [4] [5] [6]
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <17.28> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 258.
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 258.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <17.28> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 258.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 258.
+\c@theorems=\count122
+ [7] [8] [9] <dim.png, id=50, 430.60875pt x 307.1475pt>
+File: dim.png Graphic file (type png)
+
+<use dim.png>
+Package pdftex.def Info: dim.png used on input line 311.
+(pdftex.def)             Requested size: 430.60768pt x 307.14674pt.
+
+Overfull \hbox (0.3636pt too wide) in paragraph at lines 311--312
+ [] 
+ []
+
+<vector.png, id=52, 403.5075pt x 128.48pt>
+File: vector.png Graphic file (type png)
+ <use vector.png>
+Package pdftex.def Info: vector.png used on input line 315.
+(pdftex.def)             Requested size: 403.50652pt x 128.47968pt.
+
+<parall.png, id=53, 396.48125pt x 205.76875pt>
+File: parall.png Graphic file (type png)
+ <use parall.png>
+Package pdftex.def Info: parall.png used on input line 319.
+(pdftex.def)             Requested size: 396.48027pt x 205.76823pt.
+ [10 <./dim.png> <./vector.png>] [11 <./parall.png>] <gulp.png, id=63, 631.3587
+5pt x 513.92pt>
+File: gulp.png Graphic file (type png)
+
+<use gulp.png>
+Package pdftex.def Info: gulp.png used on input line 351.
+(pdftex.def)             Requested size: 631.35721pt x 513.91873pt.
+
+Overfull \hbox (176.1131pt too wide) in paragraph at lines 351--352
+ [] 
+ []
+
+[12] [13 <./gulp.png>]
+File: gulp.png Graphic file (type png)
+ <use gulp.png>
+Package pdftex.def Info: gulp.png used on input line 368.
+(pdftex.def)             Requested size: 631.35721pt x 513.91873pt.
+
+Overfull \hbox (176.1131pt too wide) in paragraph at lines 368--369
+ [] 
+ []
+
+[14] [15]
+File: gulp.png Graphic file (type png)
+ <use gulp.png>
+Package pdftex.def Info: gulp.png used on input line 428.
+(pdftex.def)             Requested size: 631.35721pt x 513.91873pt.
+
+Overfull \hbox (176.1131pt too wide) in paragraph at lines 428--429
+ [] 
+ []
+
+[16]
+File: gulp.png Graphic file (type png)
+ <use gulp.png>
+Package pdftex.def Info: gulp.png used on input line 452.
+(pdftex.def)             Requested size: 631.35721pt x 513.91873pt.
+
+Overfull \hbox (176.1131pt too wide) in paragraph at lines 452--453
+ [] 
+ []
+
+[17]
+Overfull \hbox (60.33534pt too wide) in paragraph at lines 455--456
+[]\T2A/cmr/m/n/14.4 Возьмем па-рал-ле-ло-грамм $\OML/cmm/m/it/14.4 V$\T2A/cmr/m
+/n/14.4 , ко-то-рый за-да-ет-ся век-то-ра-ми $\OML/cmm/m/it/14.4 v[] \OT1/cmr/m
+/n/14.4 = (1; 0)\OML/cmm/m/it/14.4 ; v[] \OT1/cmr/m/n/14.4 = (1\OML/cmm/m/it/14
+.4 ; \OT1/cmr/m/n/14.4 1)$
+ []
+
+[18] <l_3.png, id=89, 507.8975pt x 67.25125pt>
+File: l_3.png Graphic file (type png)
+ <use l_3.png>
+Package pdftex.def Info: l_3.png used on input line 491.
+(pdftex.def)             Requested size: 507.89627pt x 67.25107pt.
+
+Overfull \hbox (52.65216pt too wide) in paragraph at lines 491--492
+ [] 
+ []
+
+<d_3.png, id=90, 92.345pt x 16.06pt>
+File: d_3.png Graphic file (type png)
+ <use d_3.png>
+Package pdftex.def Info: d_3.png used on input line 504.
+(pdftex.def)             Requested size: 92.34476pt x 16.05995pt.
+ [19 <./l_3.png> <./d_3.png>] [20]
+Overfull \hbox (29.93248pt too wide) in paragraph at lines 553--555
+\T2A/cmr/m/n/14.4 и яв-ный вид $\OML/cmm/m/it/14.4 ^^U[]$\T2A/cmr/m/n/14.4 , на
+й-дјм зна-че-ния $\OML/cmm/m/it/14.4 p$ \T2A/cmr/m/n/14.4 в каж-дой из вось-ми 
+вер-шин $\OML/cmm/m/it/14.4 Q[] \OT1/cmr/m/n/14.4 : \OML/cmm/m/it/14.4 p\OT1/cm
+r/m/n/14.4 (0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 ; \OT1/
+cmr/m/n/14.4 0) =$
+ []
+
+File: gulp.png Graphic file (type png)
+<use gulp.png>
+Package pdftex.def Info: gulp.png used on input line 563.
+(pdftex.def)             Requested size: 631.35721pt x 513.91873pt.
+
+Overfull \hbox (176.1131pt too wide) in paragraph at lines 563--564
+ [] 
+ []
+
+[21]
+Overfull \hbox (6.0804pt too wide) detected at line 579
+\OML/cmm/m/it/14.4 a \OT1/cmr/m/n/14.4 = [] \OMS/cmsy/m/n/14.4 ^^C \OT1/cmr/m/n
+/14.4 (1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m
+/n/14.4 0) + [] \OMS/cmsy/m/n/14.4 ^^C \OT1/cmr/m/n/14.4 (0\OML/cmm/m/it/14.4 ;
+ \OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 0) + [] \OMS/cmsy/m/
+n/14.4 ^^C \OT1/cmr/m/n/14.4 (0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 0\OML/cmm
+/m/it/14.4 ; \OT1/cmr/m/n/14.4 1) = ([]\OML/cmm/m/it/14.4 ; []; []\OT1/cmr/m/n/
+14.4 )\OML/cmm/m/it/14.4 ; b \OT1/cmr/m/n/14.4 = 1 \OMS/cmsy/m/n/14.4 ^^C \OT1/
+cmr/m/n/14.4 (1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ; \OT
+1/cmr/m/n/14.4 1) = (1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.
+4 ; \OT1/cmr/m/n/14.4 1)\OML/cmm/m/it/14.4 :
+ []
+
+[22]
+File: gulp.png Graphic file (type png)
+ <use gulp.png>
+Package pdftex.def Info: gulp.png used on input line 587.
+(pdftex.def)             Requested size: 631.35721pt x 513.91873pt.
+
+Overfull \hbox (176.1131pt too wide) in paragraph at lines 587--588
+ [] 
+ []
+
+
+Overfull \hbox (169.4173pt too wide) in paragraph at lines 590--591
+[]\T2A/cmr/m/n/14.4 Возьмем па-рал-ле-ло-грамм $\OML/cmm/m/it/14.4 V$\T2A/cmr/m
+/n/14.4 , ко-то-рый за-да-ет-ся век-то-ра-ми $\OML/cmm/m/it/14.4 v[] \OT1/cmr/m
+/n/14.4 = (1; 1; 1)\OML/cmm/m/it/14.4 ; v[] \OT1/cmr/m/n/14.4 = (1\OML/cmm/m/it
+/14.4 ; \OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 0)\OML/cmm/m/
+it/14.4 ; v[] \OT1/cmr/m/n/14.4 = (0; 1; 0)$
+ []
+
+[23] [24] [25] [26]
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 632
+.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+) [27]
+Overfull \hbox (8.25783pt too wide) in paragraph at lines 632--632
+ [][]     \T2A/cmtt/m/n/14.4 var N = A.length, sign = ((i + j) % 2 == 0) ? 1 : 
+-1;[] 
+ []
+
+
+Overfull \hbox (44.79965pt too wide) in paragraph at lines 632--632
+ [][]         \T2A/cmtt/m/n/14.4 for (var n = j + 1; n < N; n++) A[m][n - 1] = 
+A[m][n];[] 
+ []
+
+[28]
+Overfull \hbox (44.79965pt too wide) in paragraph at lines 632--632
+ [][]                 \T2A/cmtt/m/n/14.4 for (var n = 0; n < N; n++) B[m][n] = 
+A[m][n];[] 
+ []
+
+[29] [30]
+Overfull \hbox (59.41638pt too wide) in paragraph at lines 632--632
+ [][]             \T2A/cmtt/m/n/14.4 s[i][j] = (s[i][j] || 0) + _findSOrT(l[i][
+j], true);[] 
+ []
+
+
+Overfull \hbox (15.5662pt too wide) in paragraph at lines 632--632
+ [][]             \T2A/cmtt/m/n/14.4 t[i][j] = (t[i][j] || 0) + _findSOrT(l[i][
+j]);[] 
+ []
+
+
+Overfull \hbox (52.10802pt too wide) in paragraph at lines 632--632
+ [][]                     \T2A/cmtt/m/n/14.4 (result[0][k][i] || 0) + s[i][j] *
+ a[j][k];[] 
+ []
+
+
+Overfull \hbox (52.10802pt too wide) in paragraph at lines 632--632
+ [][]                     \T2A/cmtt/m/n/14.4 (result[1][k][i] || 0) + t[i][j] *
+ a[j][k];[] 
+ []
+
+[31]
+Overfull \hbox (30.18292pt too wide) in paragraph at lines 632--632
+ [][]     \T2A/cmtt/m/n/14.4 var q = _getQ(l.length), i, k, j, arr = [], lambda
+ = [];[] 
+ []
+
+
+Overfull \hbox (8.25783pt too wide) in paragraph at lines 632--632
+ [][]                     \T2A/cmtt/m/n/14.4 (q[j][k] == undefined) ? 1 : q[j][
+k])[] 
+ []
+
+[32]
+Overfull \hbox (30.18292pt too wide) in paragraph at lines 632--632
+ [][]     \T2A/cmtt/m/n/14.4 var q = _getQ(l.length), i, k, j, arr = [], lambda
+ = [];[] 
+ []
+
+
+Overfull \hbox (8.25783pt too wide) in paragraph at lines 632--632
+ [][]                     \T2A/cmtt/m/n/14.4 (q[j][k] == undefined) ? 1 : q[j][
+k])[] 
+ []
+
+
+Overfull \hbox (30.18292pt too wide) in paragraph at lines 632--632
+ [][]             \T2A/cmtt/m/n/14.4 arr[i] = (arr[i] || 0) + Math.abs(lambda[j
+][i]);[] 
+ []
+
+[33]
+Overfull \hbox (30.18292pt too wide) in paragraph at lines 632--632
+ [][]     \T2A/cmtt/m/n/14.4 for (var s = 0, k = m.length; k; s += Math.abs(m[-
+-k]));[] 
+ []
+
+[34]
+Overfull \hbox (8.25783pt too wide) in paragraph at lines 632--632
+ [][]         \T2A/cmtt/m/n/14.4 norm = _findVectorNorm(v), det = _determinant(
+a),[] 
+ []
+
+
+Overfull \hbox (52.10802pt too wide) in paragraph at lines 632--632
+ [][]         \T2A/cmtt/m/n/14.4 result += _findVectorNorm(v[i]) / findVectorD(
+l, v[i]);[] 
+ []
+
+
+Overfull \hbox (8.25783pt too wide) in paragraph at lines 632--632
+ [][]                 \T2A/cmtt/m/n/14.4 result[k] += Math.abs(l[j][i]) * a[i][
+k];[] 
+ []
+
+[35]
+Overfull \hbox (74.03311pt too wide) in paragraph at lines 632--632
+ [][]             \T2A/cmtt/m/n/14.4 result[i] += l[j][i] * (x[j] == undefined 
+? 1 : x[j]);[] 
+ []
+
+[36] (./vkr.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5665 strings out of 493117
+ 78916 string characters out of 6135432
+ 152892 words of memory out of 5000000
+ 8996 multiletter control sequences out of 15000+600000
+ 20278 words of font info for 56 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,8n,32p,866b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
+}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local
+/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
+Output written on vkr.pdf (37 pages, 402764 bytes).
+PDF statistics:
+ 216 PDF objects out of 1000 (max. 8388607)
+ 144 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+
