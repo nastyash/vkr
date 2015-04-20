@@ -32,13 +32,20 @@
                         <div ng-repeat="value in polynomsResult.polynoms track by $index">
                             λ<sub>{{$index+1}}</sub> = <span ng-bind-html="value"></span>
                         </div>
-                        <div ng-repeat="value in d track by $index">
+                        <div ng-repeat="value in polynomsResult.d track by $index">
                             d<sub>{{$index+1}}</sub> = <span>{{value}}</span>
                         </div>
-                        <div>{{polynomsResult.endPoints}}</div>
-                        <p>{{polynomsResult.alpha}}</p>
-                        <p>{{polynomsResult.ksi}}</p>
-                        <p>{{polynomsResult.something}}</p>
+                        <div>
+                            <div ng-repeat="value in polynomsResult.endPoints[0] track by $index">
+                                y<sub>+</sub><sup>{{$index+1}}</sup> = ({{polynomsResult.endPoints[0][$index].join(', ')}})
+                                y<sub>-</sub><sup>{{$index+1}}</sup> = ({{polynomsResult.endPoints[1][$index].join(', ')}})
+                            </div>
+                        </div>
+
+                        <p>||P|| = {{polynomsResult.p}}</p>
+                        <p>α(S) = {{polynomsResult.alpha}}</p>
+                        <p>ξ(S) = {{polynomsResult.ksi}}</p>
+                        <p>{{polynomsResult.alpha}} <= {{polynomsResult.ksi}} <= {{polynomsResult.something}}</p>
                     </div>
                 </div>
                 <div class="col-md-6">

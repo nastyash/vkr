@@ -69,6 +69,7 @@ smplxApp.controller('ShowInputFields', ['$scope', function($scope) {
           endPoints: end_points,
           alpha: alpha,
           ksi: ksi,
+          p: p,
           something: (p - 1) * ($scope.smplxDim + 1) / 2 + 1
         };
         console.table(d);
