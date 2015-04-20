@@ -9,8 +9,9 @@ smplxApp.controller('ShowInputFields', ['$scope', function($scope) {
     $scope.smplxDim = 2;
     //renewFields($scope);
     $scope.$watch('smplxDim', function() {
-      renewFields();
-      return $scope.polynomsResult = false;
+        renewFields();
+        $scope.vectorResult = false;
+        return $scope.polynomsResult = false;
     });
 
     $scope.calculate = function() {
@@ -48,12 +49,7 @@ smplxApp.controller('ShowInputFields', ['$scope', function($scope) {
         $scope.v = v;
     }
     function calculate($scope) {
-        //console.table($scope.vertices);
         var a = getA(angular.copy($scope.vertices)), i = 0;
-        //console.log(math.det(math.matrix(matrix)));
-        //console.table(transpose(matrix));
-        //console.table(inverse(matrix));
-        //матрица с коэффициентами Лагранжа
         var l = inverse(a);
         console.table(l);
         var d = findDiamters(l);
@@ -142,6 +138,11 @@ smplxApp.controller('ShowInputFields', ['$scope', function($scope) {
         console.table(d);
         console.table(ends);
         console.log(ksi);
+        $scope.vectorResult = {
+            d: d,
+            endPoints: ends,
+            ksi: ksi
+        };
         if ($scope.smplxDim == 2) {
             var cnv = document.getElementById('myVector');
             var ctx = cnv.getContext('2d');

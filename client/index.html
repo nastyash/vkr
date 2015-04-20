@@ -59,7 +59,13 @@
                         </div>
                         <button type="button" class="btn btn-primary btn-go" ng-click="calculateVector()" ng-disabled="!polynomsResult">GO!</button>
                     </form>
-                    <canvas id="myVector" width="500" height="375" ></canvas>
+                    <div ng-show="vectorResult">
+                        <p>d<sup>v</sup> = <span>{{vectorResult.d}}}</span></p>
+                        <p>a = ({{vectorResult.endPoints[0].join(', ')}})</p>
+                        <p>b = ({{vectorResult.endPoints[1].join(', ')}})</p>
+                        <p>ξ(S) = {{vectorResult.ksi}}</p>
+                        <canvas id="myVector" width="500" height="375" ></canvas>
+                    </div>
                     <form>
                         <div class="ver-div" ng-repeat="vertex in v  track by $index">
                             v<sup>({{$index+1}})</sup>
