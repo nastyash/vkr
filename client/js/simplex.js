@@ -77,7 +77,7 @@ smplxApp.controller('ShowInputFields', ['$scope', function($scope) {
             var ctx = cnv.getContext('2d');
             var width = cnv.width;
             var height = cnv.height;
-            
+            ctx.clearRect ( 0 , 0 , width, height);
             for (var x = 0.5; x < width; x += 50) {
               ctx.moveTo(x, 0);
               ctx.lineTo(x, height);
@@ -147,7 +147,7 @@ smplxApp.controller('ShowInputFields', ['$scope', function($scope) {
             var ctx = cnv.getContext('2d');
             var width = cnv.width;
             var height = cnv.height;
-            
+            ctx.clearRect ( 0 , 0 , width, height);
             for (var x = 0.5; x < width; x += 50) {
               ctx.moveTo(x, 0);
               ctx.lineTo(x, height);
@@ -190,8 +190,8 @@ smplxApp.controller('ShowInputFields', ['$scope', function($scope) {
             ctx.strokeStyle = "#00f";
             ctx.stroke();
             ctx.beginPath();
-            ctx.moveTo(getXCoord(v[0][0]), getYCoord(v[0][1]));
-            ctx.lineTo(getXCoord(v[1][0]), getYCoord(v[1][1]));
+            ctx.moveTo(getXCoord(0), getYCoord(0));
+            ctx.lineTo(getXCoord(v[0]), getYCoord(v[1]));
             ctx.strokeStyle = "#0f0";
             ctx.stroke(); 
             ctx.beginPath();
