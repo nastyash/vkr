@@ -28,10 +28,25 @@
                         </div>
                         <button type="button" class="btn btn-primary btn-go" ng-click="calculate()">GO!</button>
                     </form>
-                    <div ng-show="polynoms">
-                        <div ng-repeat="value in polynoms track by $index">
+                    <div ng-show="polynomsResult">
+                        <div ng-repeat="value in polynomsResult.polynoms track by $index">
                             λ<sub>{{$index+1}}</sub> = <span ng-bind-html="value"></span>
                         </div>
+                        <div ng-repeat="value in polynomsResult.d track by $index">
+                            d<sub>{{$index+1}}</sub> = <span>{{value}}</span>
+                        </div>
+                        <div>
+                            <div ng-repeat="value in polynomsResult.endPoints[0] track by $index">
+                                y<sub>+</sub><sup>{{$index+1}}</sup> = ({{polynomsResult.endPoints[0][$index].join(', ')}})
+                                y<sub>-</sub><sup>{{$index+1}}</sup> = ({{polynomsResult.endPoints[1][$index].join(', ')}})
+                            </div>
+                        </div>
+
+                        <p>||P|| = {{polynomsResult.p}}</p>
+                        <p>α(S) = {{polynomsResult.alpha}}</p>
+                        <p>ξ(S) = {{polynomsResult.ksi}}</p>
+                        <p>{{polynomsResult.alpha}} <= {{polynomsResult.ksi}} <= {{polynomsResult.something}}</p>
+                        <canvas id="myTriangle" width="500" height="375" ></canvas>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -39,19 +54,20 @@
                         <div class="ver-div">
                         <div class="coord-div" ng-repeat="coord in vector  track by $index">
                             v<sub>{{$index+1}}</sub>
-                                <input type="number" class="form-control" name="{{$index}}" min="0" ng-model="vector[$index]" max="1" step="0.05" ng-value="coord">
+                                <input type="number" class="form-control" name="{{$index}}" min="0" ng-model="vector[$index]" max="1" step="0.05" ng-value="coord" ng-disabled="!polynomsResult">
                         </div>
                         </div>
-                        <button type="button" class="btn btn-primary btn-go" ng-click="calculateVector()">GO!</button>
+                        <button type="button" class="btn btn-primary btn-go" ng-click="calculateVector()" ng-disabled="!polynomsResult">GO!</button>
                     </form>
+                    <canvas id="myVector" width="500" height="375" ></canvas>
                     <form>
                         <div class="ver-div" ng-repeat="vertex in v  track by $index">
                             v<sup>({{$index+1}})</sup>
                             <div class="coord-div" ng-repeat="coord in vertex track by $index">
-                                <input type="number" class="form-control" name="{{$parent.$index + '_' + $index}}" min="0" ng-model="v[$parent.$index][$index]" max="1" step="0.05" ng-value="coord">
+                                <input type="number" class="form-control" name="{{$parent.$index + '_' + $index}}" min="0" ng-model="v[$parent.$index][$index]" max="1" step="0.05" ng-value="coord" ng-disabled="!polynomsResult">
                             </div>
                         </div>
-                        <button type="button" class="btn btn-primary btn-go" ng-click="calculateV()">GO!</button>
+                        <button type="button" class="btn btn-primary btn-go" ng-click="calculateV()" ng-disabled="!polynomsResult">GO!</button>
                     </form>
                 </div>
             </div>
