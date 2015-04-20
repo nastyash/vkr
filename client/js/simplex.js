@@ -8,8 +8,10 @@ var smplxApp = angular.module('smplxApp', ['ngSanitize']);
 smplxApp.controller('ShowInputFields', ['$scope', function($scope) {
     $scope.smplxDim = 2;
     //renewFields($scope);
-    $scope.$watch('smplxDim', function(){renewFields($scope);});
-
+    $scope.$watch('smplxDim', function() {
+      renewFields();
+      return $scope.polynoms = false;
+    });
 
     $scope.calculate = function() {
         calculate($scope);
@@ -23,7 +25,7 @@ smplxApp.controller('ShowInputFields', ['$scope', function($scope) {
         calculateV($scope);
     };
 
-    function renewFields($scope) {
+    function renewFields() {
         var dim = $scope.smplxDim,
             vertices = [],
             vertex = [],
@@ -103,6 +105,6 @@ smplxApp.controller('ShowInputFields', ['$scope', function($scope) {
         }
       });
     };
-}
+    }
 ]);
 
