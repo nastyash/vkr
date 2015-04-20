@@ -10,7 +10,7 @@ smplxApp.controller('ShowInputFields', ['$scope', function($scope) {
     //renewFields($scope);
     $scope.$watch('smplxDim', function() {
       renewFields();
-      return $scope.polynoms = false;
+      return $scope.polynomsResult = false;
     });
 
     $scope.calculate = function() {
@@ -61,9 +61,16 @@ smplxApp.controller('ShowInputFields', ['$scope', function($scope) {
         var ksi = findKsi(l);
         var p = findP(l);
         var alpha = findAlpha(d);
-        $scope.polynoms = l.map(function(e) {
-          return renderResult(e).join('');
-        });
+        $scope.polynomsResult = {
+          polynoms: l.map(function(e) {
+            return renderResult(e).join('');
+          }),
+          d: d,
+          endPoints: end_points,
+          alpha: alpha,
+          ksi: ksi,
+          something: (p - 1) * ($scope.smplxDim + 1) / 2 + 1
+        };
         console.table(d);
         console.table(end_points);
         console.log(alpha, ksi, (p-1) * ($scope.smplxDim + 1)/2 + 1);

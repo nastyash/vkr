@@ -28,10 +28,17 @@
                         </div>
                         <button type="button" class="btn btn-primary btn-go" ng-click="calculate()">GO!</button>
                     </form>
-                    <div ng-show="polynoms">
-                        <div ng-repeat="value in polynoms track by $index">
+                    <div ng-show="polynomsResult">
+                        <div ng-repeat="value in polynomsResult.polynoms track by $index">
                             λ<sub>{{$index+1}}</sub> = <span ng-bind-html="value"></span>
                         </div>
+                        <div ng-repeat="value in d track by $index">
+                            d<sub>{{$index+1}}</sub> = <span>{{value}}</span>
+                        </div>
+                        <div>{{polynomsResult.endPoints}}</div>
+                        <p>{{polynomsResult.alpha}}</p>
+                        <p>{{polynomsResult.ksi}}</p>
+                        <p>{{polynomsResult.something}}</p>
                     </div>
                 </div>
                 <div class="col-md-6">
