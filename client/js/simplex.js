@@ -11,6 +11,7 @@ smplxApp.controller('ShowInputFields', ['$scope', function($scope) {
     $scope.$watch('smplxDim', function() {
         renewFields();
         $scope.vectorResult = false;
+        $scope.vResult = false;
         return $scope.polynomsResult = false;
     });
 
@@ -208,30 +209,27 @@ smplxApp.controller('ShowInputFields', ['$scope', function($scope) {
             v = angular.copy($scope.v),
             l = inverse(a), alpha, x, barC;
         alpha = findVAlpha(l, v);
-        x = findX(l, a);
-        barC = findBarycentricCoords(l, x);
-        console.log(alpha);
-        console.table(x);
-        console.table(barC);
-    }
-    function drowAxes(name) {
-            var cnv = document.getElementById(name);
+        $scope.vResult = {
+            alpha: alpha
+        };
+        if ($scope.smplxDim == 2) {
+            var cnv = document.getElementById('myV');
             var ctx = cnv.getContext('2d');
             var width = cnv.width;
             var height = cnv.height;
-            
+            ctx.clearRect ( 0 , 0 , width, height);
             for (var x = 0.5; x < width; x += 50) {
-              ctx.moveTo(x, 0);
-              ctx.lineTo(x, height);
-            } 
+                ctx.moveTo(x, 0);
+                ctx.lineTo(x, height);
+            }
             for (var y = 0.5; y < height; y += 50) {
-              ctx.moveTo(0, y);
-              ctx.lineTo(width, y);
+                ctx.moveTo(0, y);
+                ctx.lineTo(width, y);
             }
             ctx.strokeStyle = "#eee";
             ctx.stroke();
 
-            
+
             ctx.beginPath();
             ctx.moveTo(0, height - 25);
             ctx.lineTo(width, height - 25);
@@ -245,13 +243,33 @@ smplxApp.controller('ShowInputFields', ['$scope', function($scope) {
             ctx.lineTo(50, 0);
             ctx.lineTo(45, 5);
             ctx.strokeStyle = "#000";
-            ctx.stroke(); 
-    }
-    function getXCoord (x) {
-        return x*200 + 50;
-    }
-    function getYCoord (y) {
-        return height - 25 - y*200;
+            ctx.stroke();
+
+            function getXCoord (x) {
+                return x*200 + 50;
+            };
+            function getYCoord (y) {
+                return height - 25 - y*200;
+            };
+
+            ctx.beginPath();
+            ctx.moveTo(getXCoord(a[0][0]), getYCoord(a[0][1]));
+            ctx.lineTo(getXCoord(a[1][0]), getYCoord(a[1][1]));
+            ctx.lineTo(getXCoord(a[2][0]), getYCoord(a[2][1]));
+            ctx.lineTo(getXCoord(a[0][0]), getYCoord(a[0][1]));
+            ctx.strokeStyle = "#00f";
+            ctx.stroke();
+            ctx.beginPath();
+            ctx.moveTo(getXCoord(v[0][0]), getYCoord(v[0][1]));
+            ctx.lineTo(getXCoord(0), getYCoord(0));
+            ctx.lineTo(getXCoord(v[1][0]), getYCoord(v[1][1]));
+            ctx.lineTo(getXCoord(v[0][0] + v[1][0]), getYCoord(v[0][1] + v[1][1]));
+            ctx.lineTo(getXCoord(v[0][0]), getYCoord(v[0][1]));
+            ctx.strokeStyle = "#0f0";
+            ctx.stroke();
+        }
+        x = findX(l, a);
+        barC = findBarycentricCoords(l, x);
     }
 
      renderResult = function(a) {

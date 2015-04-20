@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.18)  19 APR 2015 23:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.18)  20 APR 2015 23:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -708,73 +708,104 @@ File: parall.png Graphic file (type png)
  <use parall.png>
 Package pdftex.def Info: parall.png used on input line 319.
 (pdftex.def)             Requested size: 396.48027pt x 205.76823pt.
- [10 <./dim.png> <./vector.png>] [11 <./parall.png>] <gulp.png, id=63, 631.3587
-5pt x 513.92pt>
-File: gulp.png Graphic file (type png)
+ [10 <./dim.png> <./vector.png>] [11 <./parall.png>] <l_2.png, id=63, 560.0925p
+t x 64.24pt>
+File: l_2.png Graphic file (type png)
 
-<use gulp.png>
-Package pdftex.def Info: gulp.png used on input line 351.
-(pdftex.def)             Requested size: 631.35721pt x 513.91873pt.
+<use l_2.png>
+Package pdftex.def Info: l_2.png used on input line 351.
+(pdftex.def)             Requested size: 560.09113pt x 64.23984pt.
 
-Overfull \hbox (176.1131pt too wide) in paragraph at lines 351--352
+Overfull \hbox (104.84702pt too wide) in paragraph at lines 351--352
  [] 
  []
 
-[12] [13 <./gulp.png>]
-File: gulp.png Graphic file (type png)
- <use gulp.png>
-Package pdftex.def Info: gulp.png used on input line 368.
-(pdftex.def)             Requested size: 631.35721pt x 513.91873pt.
+<d_2.png, id=64, 109.40875pt x 38.1425pt>
+File: d_2.png Graphic file (type png)
+ <use d_2.png>
+Package pdftex.def Info: d_2.png used on input line 368.
+(pdftex.def)             Requested size: 109.40846pt x 38.1424pt.
+ [12 <./l_2.png>]
+<end_2.png, id=70, 237.88875pt x 42.1575pt>
+File: end_2.png Graphic file (type png)
+ <use end_2.png>
+Package pdftex.def Info: end_2.png used on input line 402.
+(pdftex.def)             Requested size: 237.88815pt x 42.15738pt.
 
-Overfull \hbox (176.1131pt too wide) in paragraph at lines 368--369
+<smpl_2.png, id=71, 600.2425pt x 410.53375pt>
+File: smpl_2.png Graphic file (type png)
+ <use smpl_2.png>
+Package pdftex.def Info: smpl_2.png used on input line 403.
+(pdftex.def)             Requested size: 600.24103pt x 410.53275pt.
+
+Overfull \hbox (144.99692pt too wide) in paragraph at lines 402--404
  [] 
  []
 
-[14] [15]
-File: gulp.png Graphic file (type png)
- <use gulp.png>
-Package pdftex.def Info: gulp.png used on input line 428.
-(pdftex.def)             Requested size: 631.35721pt x 513.91873pt.
+[13 <./d_2.png>] [14 <./end_2.png> <./smpl_2.png>]
+<smth_2.png, id=82, 520.94624pt x 118.4425pt>
+File: smth_2.png Graphic file (type png)
+ <use smth_2.png>
+Package pdftex.def Info: smth_2.png used on input line 434.
+(pdftex.def)             Requested size: 520.94498pt x 118.4422pt.
 
-Overfull \hbox (176.1131pt too wide) in paragraph at lines 428--429
+Overfull \hbox (65.70087pt too wide) in paragraph at lines 434--435
  [] 
  []
 
-[16]
-File: gulp.png Graphic file (type png)
- <use gulp.png>
-Package pdftex.def Info: gulp.png used on input line 452.
-(pdftex.def)             Requested size: 631.35721pt x 513.91873pt.
+<d_v_2.png, id=83, 346.29375pt x 85.31876pt>
+File: d_v_2.png Graphic file (type png)
+ <use d_v_2.png>
+Package pdftex.def Info: d_v_2.png used on input line 458.
+(pdftex.def)             Requested size: 346.2929pt x 85.31853pt.
 
-Overfull \hbox (176.1131pt too wide) in paragraph at lines 452--453
+<v_2.png, id=84, 551.05875pt x 405.515pt>
+File: v_2.png Graphic file (type png)
+ <use v_2.png>
+Package pdftex.def Info: v_2.png used on input line 459.
+(pdftex.def)             Requested size: 551.05739pt x 405.51399pt.
+
+Overfull \hbox (95.81328pt too wide) in paragraph at lines 458--460
  [] 
  []
 
-[17]
-Overfull \hbox (60.33534pt too wide) in paragraph at lines 455--456
+[15 <./smth_2.png>]
+Overfull \hbox (60.33534pt too wide) in paragraph at lines 462--463
 []\T2A/cmr/m/n/14.4 Возьмем па-рал-ле-ло-грамм $\OML/cmm/m/it/14.4 V$\T2A/cmr/m
 /n/14.4 , ко-то-рый за-да-ет-ся век-то-ра-ми $\OML/cmm/m/it/14.4 v[] \OT1/cmr/m
 /n/14.4 = (1; 0)\OML/cmm/m/it/14.4 ; v[] \OT1/cmr/m/n/14.4 = (1\OML/cmm/m/it/14
 .4 ; \OT1/cmr/m/n/14.4 1)$
  []
 
-[18] <l_3.png, id=89, 507.8975pt x 67.25125pt>
-File: l_3.png Graphic file (type png)
- <use l_3.png>
-Package pdftex.def Info: l_3.png used on input line 491.
-(pdftex.def)             Requested size: 507.89627pt x 67.25107pt.
+<par_2.png, id=89, 564.1075pt x 412.54124pt>
+File: par_2.png Graphic file (type png)
+ <use par_2.png>
+Package pdftex.def Info: par_2.png used on input line 468.
+(pdftex.def)             Requested size: 564.10611pt x 412.54024pt.
 
-Overfull \hbox (52.65216pt too wide) in paragraph at lines 491--492
+Overfull \hbox (108.862pt too wide) in paragraph at lines 468--469
  [] 
  []
 
-<d_3.png, id=90, 92.345pt x 16.06pt>
+[16 <./d_v_2.png> <./v_2.png>] [17 <./par_2.png>]
+<l_3.png, id=99, 257.96375pt x 81.30376pt>
+File: l_3.png Graphic file (type png)
+ <use l_3.png>
+Package pdftex.def Info: l_3.png used on input line 501.
+(pdftex.def)             Requested size: 257.9631pt x 81.30354pt.
+
+<d_3.png, id=100, 82.3075pt x 61.22874pt>
 File: d_3.png Graphic file (type png)
  <use d_3.png>
-Package pdftex.def Info: d_3.png used on input line 504.
-(pdftex.def)             Requested size: 92.34476pt x 16.05995pt.
- [19 <./l_3.png> <./d_3.png>] [20]
-Overfull \hbox (29.93248pt too wide) in paragraph at lines 553--555
+Package pdftex.def Info: d_3.png used on input line 514.
+(pdftex.def)             Requested size: 82.30728pt x 61.22858pt.
+ [18 <./l_3.png> <./d_3.png>] <end_3.png, id=107, 247.92625pt x 67.25125pt>
+File: end_3.png Graphic file (type png)
+ <use end_3.png>
+Package pdftex.def Info: end_3.png used on input line 557.
+(pdftex.def)             Requested size: 247.92564pt x 67.25107pt.
+ [19 <./end_3.png>]
+Overfull \hbox (29.93248pt too wide) in paragraph at lines 567--569
 \T2A/cmr/m/n/14.4 и яв-ный вид $\OML/cmm/m/it/14.4 ^^U[]$\T2A/cmr/m/n/14.4 , на
 й-дјм зна-че-ния $\OML/cmm/m/it/14.4 p$ \T2A/cmr/m/n/14.4 в каж-дой из вось-ми 
 вер-шин $\OML/cmm/m/it/14.4 Q[] \OT1/cmr/m/n/14.4 : \OML/cmm/m/it/14.4 p\OT1/cm
@@ -782,17 +813,13 @@ r/m/n/14.4 (0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 ; \OT1/
 cmr/m/n/14.4 0) =$
  []
 
-File: gulp.png Graphic file (type png)
-<use gulp.png>
-Package pdftex.def Info: gulp.png used on input line 563.
-(pdftex.def)             Requested size: 631.35721pt x 513.91873pt.
+<smth_3.png, id=112, 129.48375pt x 116.435pt>
+File: smth_3.png Graphic file (type png)
+ <use smth_3.png>
+Package pdftex.def Info: smth_3.png used on input line 577.
+(pdftex.def)             Requested size: 129.48341pt x 116.43471pt.
 
-Overfull \hbox (176.1131pt too wide) in paragraph at lines 563--564
- [] 
- []
-
-[21]
-Overfull \hbox (6.0804pt too wide) detected at line 579
+Overfull \hbox (6.0804pt too wide) detected at line 593
 \OML/cmm/m/it/14.4 a \OT1/cmr/m/n/14.4 = [] \OMS/cmsy/m/n/14.4 ^^C \OT1/cmr/m/n
 /14.4 (1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m
 /n/14.4 0) + [] \OMS/cmsy/m/n/14.4 ^^C \OT1/cmr/m/n/14.4 (0\OML/cmm/m/it/14.4 ;
@@ -805,18 +832,24 @@ cmr/m/n/14.4 (1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ; \OT
 4 ; \OT1/cmr/m/n/14.4 1)\OML/cmm/m/it/14.4 :
  []
 
-[22]
-File: gulp.png Graphic file (type png)
- <use gulp.png>
-Package pdftex.def Info: gulp.png used on input line 587.
-(pdftex.def)             Requested size: 631.35721pt x 513.91873pt.
+<d_v_3.png, id=113, 492.84125pt x 89.33376pt>
+File: d_v_3.png Graphic file (type png)
+ <use d_v_3.png>
+Package pdftex.def Info: d_v_3.png used on input line 600.
+(pdftex.def)             Requested size: 492.84003pt x 89.33353pt.
 
-Overfull \hbox (176.1131pt too wide) in paragraph at lines 587--588
+Overfull \hbox (37.59592pt too wide) in paragraph at lines 600--601
  [] 
  []
 
+[20 <./smth_3.png>] <e_v_3.png, id=118, 229.85875pt x 36.135pt>
+File: e_v_3.png Graphic file (type png)
 
-Overfull \hbox (169.4173pt too wide) in paragraph at lines 590--591
+<use e_v_3.png>
+Package pdftex.def Info: e_v_3.png used on input line 605.
+(pdftex.def)             Requested size: 229.85817pt x 36.13489pt.
+
+Overfull \hbox (169.4173pt too wide) in paragraph at lines 608--609
 []\T2A/cmr/m/n/14.4 Возьмем па-рал-ле-ло-грамм $\OML/cmm/m/it/14.4 V$\T2A/cmr/m
 /n/14.4 , ко-то-рый за-да-ет-ся век-то-ра-ми $\OML/cmm/m/it/14.4 v[] \OT1/cmr/m
 /n/14.4 = (1; 1; 1)\OML/cmm/m/it/14.4 ; v[] \OT1/cmr/m/n/14.4 = (1\OML/cmm/m/it
@@ -824,124 +857,129 @@ Overfull \hbox (169.4173pt too wide) in paragraph at lines 590--591
 it/14.4 ; v[] \OT1/cmr/m/n/14.4 = (0; 1; 0)$
  []
 
-[23] [24] [25] [26]
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 632
+<v_3.png, id=119, 101.37875pt x 41.15375pt>
+File: v_3.png Graphic file (type png)
+ <use v_3.png>
+Package pdftex.def Info: v_3.png used on input line 614.
+(pdftex.def)             Requested size: 101.3785pt x 41.15364pt.
+ [21 <./d_v_3.png> <./e_v_3.png> <./v_3.png>] [22] [23]
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 653
 .
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-) [27]
-Overfull \hbox (8.25783pt too wide) in paragraph at lines 632--632
+) [24]
+Overfull \hbox (8.25783pt too wide) in paragraph at lines 653--653
  [][]     \T2A/cmtt/m/n/14.4 var N = A.length, sign = ((i + j) % 2 == 0) ? 1 : 
 -1;[] 
  []
 
 
-Overfull \hbox (44.79965pt too wide) in paragraph at lines 632--632
+Overfull \hbox (44.79965pt too wide) in paragraph at lines 653--653
  [][]         \T2A/cmtt/m/n/14.4 for (var n = j + 1; n < N; n++) A[m][n - 1] = 
 A[m][n];[] 
  []
 
-[28]
-Overfull \hbox (44.79965pt too wide) in paragraph at lines 632--632
+[25]
+Overfull \hbox (44.79965pt too wide) in paragraph at lines 653--653
  [][]                 \T2A/cmtt/m/n/14.4 for (var n = 0; n < N; n++) B[m][n] = 
 A[m][n];[] 
  []
 
-[29] [30]
-Overfull \hbox (59.41638pt too wide) in paragraph at lines 632--632
+[26] [27]
+Overfull \hbox (59.41638pt too wide) in paragraph at lines 653--653
  [][]             \T2A/cmtt/m/n/14.4 s[i][j] = (s[i][j] || 0) + _findSOrT(l[i][
 j], true);[] 
  []
 
 
-Overfull \hbox (15.5662pt too wide) in paragraph at lines 632--632
+Overfull \hbox (15.5662pt too wide) in paragraph at lines 653--653
  [][]             \T2A/cmtt/m/n/14.4 t[i][j] = (t[i][j] || 0) + _findSOrT(l[i][
 j]);[] 
  []
 
 
-Overfull \hbox (52.10802pt too wide) in paragraph at lines 632--632
+Overfull \hbox (52.10802pt too wide) in paragraph at lines 653--653
  [][]                     \T2A/cmtt/m/n/14.4 (result[0][k][i] || 0) + s[i][j] *
  a[j][k];[] 
  []
 
 
-Overfull \hbox (52.10802pt too wide) in paragraph at lines 632--632
+Overfull \hbox (52.10802pt too wide) in paragraph at lines 653--653
  [][]                     \T2A/cmtt/m/n/14.4 (result[1][k][i] || 0) + t[i][j] *
  a[j][k];[] 
  []
 
-[31]
-Overfull \hbox (30.18292pt too wide) in paragraph at lines 632--632
+[28]
+Overfull \hbox (30.18292pt too wide) in paragraph at lines 653--653
  [][]     \T2A/cmtt/m/n/14.4 var q = _getQ(l.length), i, k, j, arr = [], lambda
  = [];[] 
  []
 
 
-Overfull \hbox (8.25783pt too wide) in paragraph at lines 632--632
+Overfull \hbox (8.25783pt too wide) in paragraph at lines 653--653
  [][]                     \T2A/cmtt/m/n/14.4 (q[j][k] == undefined) ? 1 : q[j][
 k])[] 
  []
 
-[32]
-Overfull \hbox (30.18292pt too wide) in paragraph at lines 632--632
+[29]
+Overfull \hbox (30.18292pt too wide) in paragraph at lines 653--653
  [][]     \T2A/cmtt/m/n/14.4 var q = _getQ(l.length), i, k, j, arr = [], lambda
  = [];[] 
  []
 
 
-Overfull \hbox (8.25783pt too wide) in paragraph at lines 632--632
+Overfull \hbox (8.25783pt too wide) in paragraph at lines 653--653
  [][]                     \T2A/cmtt/m/n/14.4 (q[j][k] == undefined) ? 1 : q[j][
 k])[] 
  []
 
 
-Overfull \hbox (30.18292pt too wide) in paragraph at lines 632--632
+Overfull \hbox (30.18292pt too wide) in paragraph at lines 653--653
  [][]             \T2A/cmtt/m/n/14.4 arr[i] = (arr[i] || 0) + Math.abs(lambda[j
 ][i]);[] 
  []
 
-[33]
-Overfull \hbox (30.18292pt too wide) in paragraph at lines 632--632
+[30]
+Overfull \hbox (30.18292pt too wide) in paragraph at lines 653--653
  [][]     \T2A/cmtt/m/n/14.4 for (var s = 0, k = m.length; k; s += Math.abs(m[-
 -k]));[] 
  []
 
-[34]
-Overfull \hbox (8.25783pt too wide) in paragraph at lines 632--632
+[31]
+Overfull \hbox (8.25783pt too wide) in paragraph at lines 653--653
  [][]         \T2A/cmtt/m/n/14.4 norm = _findVectorNorm(v), det = _determinant(
 a),[] 
  []
 
 
-Overfull \hbox (52.10802pt too wide) in paragraph at lines 632--632
+Overfull \hbox (52.10802pt too wide) in paragraph at lines 653--653
  [][]         \T2A/cmtt/m/n/14.4 result += _findVectorNorm(v[i]) / findVectorD(
 l, v[i]);[] 
  []
 
 
-Overfull \hbox (8.25783pt too wide) in paragraph at lines 632--632
+Overfull \hbox (8.25783pt too wide) in paragraph at lines 653--653
  [][]                 \T2A/cmtt/m/n/14.4 result[k] += Math.abs(l[j][i]) * a[i][
 k];[] 
  []
 
-[35]
-Overfull \hbox (74.03311pt too wide) in paragraph at lines 632--632
+[32]
+Overfull \hbox (74.03311pt too wide) in paragraph at lines 653--653
  [][]             \T2A/cmtt/m/n/14.4 result[i] += l[j][i] * (x[j] == undefined 
 ? 1 : x[j]);[] 
  []
 
-[36] (./vkr.aux)
+[33] (./vkr.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5665 strings out of 493117
- 78916 string characters out of 6135432
- 152892 words of memory out of 5000000
- 8996 multiletter control sequences out of 15000+600000
+ 5725 strings out of 493117
+ 79664 string characters out of 6135432
+ 151892 words of memory out of 5000000
+ 9044 multiletter control sequences out of 15000+600000
  20278 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,8n,32p,866b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -965,10 +1003,10 @@ xlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texliv
 e/2014/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/texlive/
 2014/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on vkr.pdf (37 pages, 402764 bytes).
+Output written on vkr.pdf (34 pages, 437667 bytes).
 PDF statistics:
- 216 PDF objects out of 1000 (max. 8388607)
- 144 compressed objects within 2 object streams
+ 228 PDF objects out of 1000 (max. 8388607)
+ 135 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

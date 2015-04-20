@@ -46,7 +46,7 @@
                         <p>α(S) = {{polynomsResult.alpha}}</p>
                         <p>ξ(S) = {{polynomsResult.ksi}}</p>
                         <p>{{polynomsResult.alpha}} <= {{polynomsResult.ksi}} <= {{polynomsResult.something}}</p>
-                        <canvas id="myTriangle" width="500" height="375" ></canvas>
+                        <canvas ng-show="smplxDim == 2" id="myTriangle" width="500" height="375" ></canvas>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -63,8 +63,8 @@
                         <p>d<sup>v</sup> = <span>{{vectorResult.d}}}</span></p>
                         <p>a = ({{vectorResult.endPoints[0].join(', ')}})</p>
                         <p>b = ({{vectorResult.endPoints[1].join(', ')}})</p>
-                        <p>ξ(S) = {{vectorResult.ksi}}</p>
-                        <canvas id="myVector" width="500" height="375" ></canvas>
+                        <p>Σ(S,v) = {{vectorResult.ksi}}</p>
+                        <canvas ng-show="smplxDim == 2" id="myVector" width="500" height="375" ></canvas>
                     </div>
                     <form>
                         <div class="ver-div" ng-repeat="vertex in v  track by $index">
@@ -75,6 +75,10 @@
                         </div>
                         <button type="button" class="btn btn-primary btn-go" ng-click="calculateV()" ng-disabled="!polynomsResult">GO!</button>
                     </form>
+                    <div ng-show="vResult">
+                        <p>α(V,S) = {{vResult.alpha}}</p>
+                        <canvas ng-show="smplxDim == 2" id="myV" width="500" height="375" ></canvas>
+                    </div>
                 </div>
             </div>
         </div>
