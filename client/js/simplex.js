@@ -119,10 +119,10 @@ smplxApp.controller('ShowInputFields', ['$scope', function($scope) {
             ctx.strokeStyle = "#00f";
             ctx.stroke();
             ctx.beginPath();
-            ctx.moveTo(getXCoord(end_points[0][0][0]), getYCoord(end_points[0][1][0]));
-            ctx.lineTo(getXCoord(end_points[1][0][0]), getYCoord(end_points[1][1][0]));
-            ctx.moveTo(getXCoord(end_points[0][0][1]), getYCoord(end_points[0][1][1]));
-            ctx.lineTo(getXCoord(end_points[1][0][1]), getYCoord(end_points[1][1][1]));
+            ctx.moveTo(getXCoord(end_points[0][0][0]), getYCoord(end_points[0][0][1]));
+            ctx.lineTo(getXCoord(end_points[1][0][0]), getYCoord(end_points[1][0][1]));
+            ctx.moveTo(getXCoord(end_points[0][1][0]), getYCoord(end_points[0][1][1]));
+            ctx.lineTo(getXCoord(end_points[1][1][0]), getYCoord(end_points[1][1][1]));
             ctx.strokeStyle = "#0f0";
             ctx.stroke(); 
         }

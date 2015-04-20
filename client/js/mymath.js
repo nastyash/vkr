@@ -159,15 +159,17 @@ function endPoints(l, a) {
         });
     }
     result = [[], []];
-    for (k = 0; k < n - 1; k++) {
-        result[0][k] = [];
-        result[1][k] = [];
-        for (i = 0; i < n - 1; i++) {
-            for (j = 0; j < n; j++) {
-                result[0][k][i] = (result[0][k][i] || 0) + s[i][j] * a[j][k];
-                result[1][k][i] = (result[1][k][i] || 0) + t[i][j] * a[j][k];
+    for (k = 0; k < n-1; k++) {
+        var t_arr = [];
+        var s_arr = [];
+        for (j = 0; j<n; j++) {
+            for (i = 0; i < n-1; i++){
+                s_arr[i] = (s_arr[i] || 0) + s[k][j] * a[j][i];
+                t_arr[i] = (t_arr[i] || 0) + t[k][j]* a[j][i];
             }
         }
+        result[0].push(s_arr);
+        result[1].push(t_arr);
     }
     return result;
 }
