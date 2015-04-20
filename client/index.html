@@ -59,6 +59,7 @@
                         </div>
                         <button type="button" class="btn btn-primary btn-go" ng-click="calculateVector()" ng-disabled="!polynomsResult">GO!</button>
                     </form>
+                    <canvas id="myVector" width="500" height="375" ></canvas>
                     <form>
                         <div class="ver-div" ng-repeat="vertex in v  track by $index">
                             v<sup>({{$index+1}})</sup>
