@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.18)  21 APR 2015 08:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.18)  21 APR 2015 20:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -761,13 +761,6 @@ File: e_v_2.png Graphic file (type png)
 Package pdftex.def Info: e_v_2.png used on input line 464.
 (pdftex.def)             Requested size: 235.88068pt x 34.1274pt.
 
-Overfull \hbox (60.33534pt too wide) in paragraph at lines 467--468
-[]\T2A/cmr/m/n/14.4 Возьмем па-рал-ле-ло-грамм $\OML/cmm/m/it/14.4 V$\T2A/cmr/m
-/n/14.4 , ко-то-рый за-да-ет-ся век-то-ра-ми $\OML/cmm/m/it/14.4 v[] \OT1/cmr/m
-/n/14.4 = (1; 0)\OML/cmm/m/it/14.4 ; v[] \OT1/cmr/m/n/14.4 = (1\OML/cmm/m/it/14
-.4 ; \OT1/cmr/m/n/14.4 1)$
- []
-
 <a_v_2.png, id=90, 206.7725pt x 24.09pt>
 File: a_v_2.png Graphic file (type png)
  <use a_v_2.png>
@@ -791,7 +784,19 @@ File: d_3.png Graphic file (type png)
  <use d_3.png>
 Package pdftex.def Info: d_3.png used on input line 520.
 (pdftex.def)             Requested size: 82.30728pt x 61.22858pt.
- [18 <./l_3.png> <./d_3.png>] <end_3.png, id=111, 247.92625pt x 67.25125pt>
+ [18 <./l_3.png> <./d_3.png>]
+Overfull \hbox (22.25041pt too wide) in paragraph at lines 559--562
+\T2A/cmr/m/n/14.4 зок, па-рал-лель-ный оси $\OML/cmm/m/it/14.4 x[]$\T2A/cmr/m/n
+/14.4 , име-ет кон-цы $\OML/cmm/m/it/14.4 y[] \OT1/cmr/m/n/14.4 = (1\OML/cmm/m/
+it/14.4 ; \OT1/cmr/m/n/14.4 1 \OML/cmm/m/it/14.4 =\OT1/cmr/m/n/14.4 2\OML/cmm/m
+/it/14.4 ; \OT1/cmr/m/n/14.4 1 \OML/cmm/m/it/14.4 =\OT1/cmr/m/n/14.4 2)$ \T2A/c
+mr/m/n/14.4 и $\OML/cmm/m/it/14.4 y[] \OT1/cmr/m/n/14.4 =$ $(0\OML/cmm/m/it/14.
+4 ; \OT1/cmr/m/n/14.4 1 \OML/cmm/m/it/14.4 =\OT1/cmr/m/n/14.4 2\OML/cmm/m/it/14
+.4 ; \OT1/cmr/m/n/14.4 1 \OML/cmm/m/it/14.4 =\OT1/cmr/m/n/14.4 2)$\T2A/cmr/m/n/
+14.4 .
+ []
+
+<end_3.png, id=111, 247.92625pt x 67.25125pt>
 File: end_3.png Graphic file (type png)
  <use end_3.png>
 Package pdftex.def Info: end_3.png used on input line 563.
@@ -811,19 +816,6 @@ File: smth_3.png Graphic file (type png)
 Package pdftex.def Info: smth_3.png used on input line 583.
 (pdftex.def)             Requested size: 129.48341pt x 116.43471pt.
 
-Overfull \hbox (6.0804pt too wide) detected at line 599
-\OML/cmm/m/it/14.4 a \OT1/cmr/m/n/14.4 = [] \OMS/cmsy/m/n/14.4 ^^C \OT1/cmr/m/n
-/14.4 (1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m
-/n/14.4 0) + [] \OMS/cmsy/m/n/14.4 ^^C \OT1/cmr/m/n/14.4 (0\OML/cmm/m/it/14.4 ;
- \OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 0) + [] \OMS/cmsy/m/
-n/14.4 ^^C \OT1/cmr/m/n/14.4 (0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 0\OML/cmm
-/m/it/14.4 ; \OT1/cmr/m/n/14.4 1) = ([]\OML/cmm/m/it/14.4 ; []; []\OT1/cmr/m/n/
-14.4 )\OML/cmm/m/it/14.4 ; b \OT1/cmr/m/n/14.4 = 1 \OMS/cmsy/m/n/14.4 ^^C \OT1/
-cmr/m/n/14.4 (1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ; \OT
-1/cmr/m/n/14.4 1) = (1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.
-4 ; \OT1/cmr/m/n/14.4 1)\OML/cmm/m/it/14.4 :
- []
-
 <d_v_3.png, id=117, 492.84125pt x 89.33376pt>
 File: d_v_3.png Graphic file (type png)
  <use d_v_3.png>
@@ -834,19 +826,17 @@ Overfull \hbox (37.59592pt too wide) in paragraph at lines 606--607
  [] 
  []
 
-[20 <./smth_3.png>] <e_v_3.png, id=122, 229.85875pt x 36.135pt>
+[20 <./smth_3.png>] <e_v_3.png, id=122, 219.82124pt x 40.15pt>
 File: e_v_3.png Graphic file (type png)
-
-<use e_v_3.png>
+ <use e_v_3.png>
 Package pdftex.def Info: e_v_3.png used on input line 611.
-(pdftex.def)             Requested size: 229.85817pt x 36.13489pt.
+(pdftex.def)             Requested size: 219.8207pt x 40.14989pt.
 
-Overfull \hbox (169.4173pt too wide) in paragraph at lines 614--615
+Overfull \hbox (11.0359pt too wide) in paragraph at lines 614--615
 []\T2A/cmr/m/n/14.4 Возьмем па-рал-ле-ло-грамм $\OML/cmm/m/it/14.4 V$\T2A/cmr/m
 /n/14.4 , ко-то-рый за-да-ет-ся век-то-ра-ми $\OML/cmm/m/it/14.4 v[] \OT1/cmr/m
-/n/14.4 = (1; 1; 1)\OML/cmm/m/it/14.4 ; v[] \OT1/cmr/m/n/14.4 = (1\OML/cmm/m/it
-/14.4 ; \OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 0)\OML/cmm/m/
-it/14.4 ; v[] \OT1/cmr/m/n/14.4 = (0; 1; 0)$
+/n/14.4 = (1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ; \OT1/c
+mr/m/n/14.4 1)\OML/cmm/m/it/14.4 ; [] 
  []
 
 <v_3.png, id=123, 101.37875pt x 41.15375pt>
@@ -855,109 +845,109 @@ File: v_3.png Graphic file (type png)
 Package pdftex.def Info: v_3.png used on input line 620.
 (pdftex.def)             Requested size: 101.3785pt x 41.15364pt.
  [21 <./d_v_3.png> <./e_v_3.png> <./v_3.png>] [22] [23]
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 663
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 659
 .
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ) [24]
-Overfull \hbox (8.25783pt too wide) in paragraph at lines 663--663
+Overfull \hbox (8.25783pt too wide) in paragraph at lines 659--659
  [][]     \T2A/cmtt/m/n/14.4 var N = A.length, sign = ((i + j) % 2 == 0) ? 1 : 
 -1;[] 
  []
 
 
-Overfull \hbox (44.79965pt too wide) in paragraph at lines 663--663
+Overfull \hbox (44.79965pt too wide) in paragraph at lines 659--659
  [][]         \T2A/cmtt/m/n/14.4 for (var n = j + 1; n < N; n++) A[m][n - 1] = 
 A[m][n];[] 
  []
 
 [25]
-Overfull \hbox (44.79965pt too wide) in paragraph at lines 663--663
+Overfull \hbox (44.79965pt too wide) in paragraph at lines 659--659
  [][]                 \T2A/cmtt/m/n/14.4 for (var n = 0; n < N; n++) B[m][n] = 
 A[m][n];[] 
  []
 
 [26] [27]
-Overfull \hbox (59.41638pt too wide) in paragraph at lines 663--663
+Overfull \hbox (59.41638pt too wide) in paragraph at lines 659--659
  [][]             \T2A/cmtt/m/n/14.4 s[i][j] = (s[i][j] || 0) + _findSOrT(l[i][
 j], true);[] 
  []
 
 
-Overfull \hbox (15.5662pt too wide) in paragraph at lines 663--663
+Overfull \hbox (15.5662pt too wide) in paragraph at lines 659--659
  [][]             \T2A/cmtt/m/n/14.4 t[i][j] = (t[i][j] || 0) + _findSOrT(l[i][
 j]);[] 
  []
 
 
-Overfull \hbox (52.10802pt too wide) in paragraph at lines 663--663
+Overfull \hbox (52.10802pt too wide) in paragraph at lines 659--659
  [][]                     \T2A/cmtt/m/n/14.4 (result[0][k][i] || 0) + s[i][j] *
  a[j][k];[] 
  []
 
 
-Overfull \hbox (52.10802pt too wide) in paragraph at lines 663--663
+Overfull \hbox (52.10802pt too wide) in paragraph at lines 659--659
  [][]                     \T2A/cmtt/m/n/14.4 (result[1][k][i] || 0) + t[i][j] *
  a[j][k];[] 
  []
 
 [28]
-Overfull \hbox (30.18292pt too wide) in paragraph at lines 663--663
+Overfull \hbox (30.18292pt too wide) in paragraph at lines 659--659
  [][]     \T2A/cmtt/m/n/14.4 var q = _getQ(l.length), i, k, j, arr = [], lambda
  = [];[] 
  []
 
 
-Overfull \hbox (8.25783pt too wide) in paragraph at lines 663--663
+Overfull \hbox (8.25783pt too wide) in paragraph at lines 659--659
  [][]                     \T2A/cmtt/m/n/14.4 (q[j][k] == undefined) ? 1 : q[j][
 k])[] 
  []
 
 [29]
-Overfull \hbox (30.18292pt too wide) in paragraph at lines 663--663
+Overfull \hbox (30.18292pt too wide) in paragraph at lines 659--659
  [][]     \T2A/cmtt/m/n/14.4 var q = _getQ(l.length), i, k, j, arr = [], lambda
  = [];[] 
  []
 
 
-Overfull \hbox (8.25783pt too wide) in paragraph at lines 663--663
+Overfull \hbox (8.25783pt too wide) in paragraph at lines 659--659
  [][]                     \T2A/cmtt/m/n/14.4 (q[j][k] == undefined) ? 1 : q[j][
 k])[] 
  []
 
 
-Overfull \hbox (30.18292pt too wide) in paragraph at lines 663--663
+Overfull \hbox (30.18292pt too wide) in paragraph at lines 659--659
  [][]             \T2A/cmtt/m/n/14.4 arr[i] = (arr[i] || 0) + Math.abs(lambda[j
 ][i]);[] 
  []
 
 [30]
-Overfull \hbox (30.18292pt too wide) in paragraph at lines 663--663
+Overfull \hbox (30.18292pt too wide) in paragraph at lines 659--659
  [][]     \T2A/cmtt/m/n/14.4 for (var s = 0, k = m.length; k; s += Math.abs(m[-
 -k]));[] 
  []
 
 [31]
-Overfull \hbox (8.25783pt too wide) in paragraph at lines 663--663
+Overfull \hbox (8.25783pt too wide) in paragraph at lines 659--659
  [][]         \T2A/cmtt/m/n/14.4 norm = _findVectorNorm(v), det = _determinant(
 a),[] 
  []
 
 
-Overfull \hbox (52.10802pt too wide) in paragraph at lines 663--663
+Overfull \hbox (52.10802pt too wide) in paragraph at lines 659--659
  [][]         \T2A/cmtt/m/n/14.4 result += _findVectorNorm(v[i]) / findVectorD(
 l, v[i]);[] 
  []
 
 
-Overfull \hbox (8.25783pt too wide) in paragraph at lines 663--663
+Overfull \hbox (8.25783pt too wide) in paragraph at lines 659--659
  [][]                 \T2A/cmtt/m/n/14.4 result[k] += Math.abs(l[j][i]) * a[i][
 k];[] 
  []
 
 [32]
-Overfull \hbox (74.03311pt too wide) in paragraph at lines 663--663
+Overfull \hbox (74.03311pt too wide) in paragraph at lines 659--659
  [][]             \T2A/cmtt/m/n/14.4 result[i] += l[j][i] * (x[j] == undefined 
 ? 1 : x[j]);[] 
  []
@@ -968,10 +958,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5737 strings out of 493117
- 79808 string characters out of 6135432
- 151900 words of memory out of 5000000
- 9054 multiletter control sequences out of 15000+600000
+ 5735 strings out of 493117
+ 79795 string characters out of 6135432
+ 151892 words of memory out of 5000000
+ 9052 multiletter control sequences out of 15000+600000
  20278 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,8n,32p,866b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -995,7 +985,7 @@ xlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texliv
 e/2014/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/texlive/
 2014/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on vkr.pdf (34 pages, 426160 bytes).
+Output written on vkr.pdf (34 pages, 439519 bytes).
 PDF statistics:
  232 PDF objects out of 1000 (max. 8388607)
  135 compressed objects within 2 object streams
