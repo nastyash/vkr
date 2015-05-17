@@ -153,7 +153,8 @@ function endPoints(l, a) {
         s[i] = [];
         t[i] = [];
         for (j = 0; j < n; j++) {
-            s[i][j] = (s[i][j] || 0) + _findSOrT(l[i][j], true);
+            s[i][j] = (s[i][j] || 0) + 
+		_findSOrT(l[i][j], true);
             t[i][j] = (t[i][j] || 0) + _findSOrT(l[i][j]);
         }
         s[i] = s[i].map(function (num) {
@@ -169,10 +170,10 @@ function endPoints(l, a) {
         result[1][k] = [];
         for (i = 0; i < n - 1; i++) {
             for (j = 0; j < n; j++) {
-                result[0][k][i] =
-                    (result[0][k][i] || 0) + s[i][j] * a[j][k];
-                result[1][k][i] =
-                    (result[1][k][i] || 0) + t[i][j] * a[j][k];
+                result[0][k][i] = (result[0][k][i] || 0)
+			 + s[i][j] * a[j][k];
+                result[1][k][i] = (result[1][k][i] || 0)
+			 + t[i][j] * a[j][k];
             }
         }
     }
@@ -260,7 +261,8 @@ function _findM(l, v) {
 }
 
 function _findMSum(m) {
-    for (var s = 0, k = m.length; k; s += Math.abs(m[--k]));
+    for (var s = 0, k = m.length; k; 
+	s += Math.abs(m[--k]));
     return s;
 }
 
@@ -308,7 +310,8 @@ function findVectorKsi(l, v, a) {
 function findVAlpha(l, v) {
     var i, j, result = 0;
     for (i = 0; i < v.length; i++) {
-        result += _findVectorNorm(v[i]) / findVectorD(l, v[i]);
+        result += _findVectorNorm(v[i]) / 
+		findVectorD(l, v[i]);
     }
     return result;
 }
@@ -339,7 +342,8 @@ function findBarycentricCoords(l, x) {
     for (i = 0; i < l.length; i++) {
         result[i] = 0;
         for (j = 0; j < l[i].length; j++) {
-            result[i] += l[j][i] * (x[j] == undefined ? 1 : x[j]);
+            result[i] += l[j][i] * (x[j] ==
+		 undefined ? 1 : x[j]);
         }
     }
     return result;
