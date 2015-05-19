@@ -13,8 +13,7 @@ function getA(m) {
     return m;
 }
 
-function _determinant(A)
-{
+function _determinant(A) {
     var N = A.length, B = [], denom = 1, exchanges = 0;
     for (var i = 0; i < N; ++i) {
         B[i] = [];
@@ -43,8 +42,7 @@ function _determinant(A)
             var value2 = B[j][i];
             B[j][i] = 0;
             for (var k = i + 1; k < N; ++k)
-                B[j][k] = (B[j][k] * value1 -
-                    B[i][k] * value2) / denom;
+                B[j][k] = (B[j][k] * value1 - B[i][k] * value2) / denom;
         }
         denom = value1;
     }
@@ -52,8 +50,7 @@ function _determinant(A)
     else return B[N - 1][N - 1];
 }
 
-function _matrixCofactor(i, j, A)
-{
+function _matrixCofactor(i, j, A) {
     var N = A.length, sign = ((i + j) % 2 == 0) ? 1 : -1;
     for (var m = 0; m < N; m++) {
         for (var n = j + 1; n < N; n++) A[m][n - 1] = A[m][n];
@@ -64,8 +61,7 @@ function _matrixCofactor(i, j, A)
     return sign * _determinant(A);
 }
 
-function _adjugateMatrix(A)
-{
+function _adjugateMatrix(A) {
     var N = A.length, B = [], adjA = [];
     for (var i = 0; i < N; i++) {
         adjA[i] = [];
@@ -80,8 +76,7 @@ function _adjugateMatrix(A)
     return adjA;
 }
 
-function inverse(A)
-{
+function inverse(A) {
     var det = _determinant(A);
     if (det == 0) return false;
     var N = A.length, a = _adjugateMatrix(A);
@@ -153,8 +148,7 @@ function endPoints(l, a) {
         s[i] = [];
         t[i] = [];
         for (j = 0; j < n; j++) {
-            s[i][j] = (s[i][j] || 0) + 
-		_findSOrT(l[i][j], true);
+            s[i][j] = (s[i][j] || 0) + _findSOrT(l[i][j], true);
             t[i][j] = (t[i][j] || 0) + _findSOrT(l[i][j]);
         }
         s[i] = s[i].map(function (num) {
@@ -165,17 +159,17 @@ function endPoints(l, a) {
         });
     }
     result = [[], []];
-    for (k = 0; k < n - 1; k++) {
-        result[0][k] = [];
-        result[1][k] = [];
-        for (i = 0; i < n - 1; i++) {
-            for (j = 0; j < n; j++) {
-                result[0][k][i] = (result[0][k][i] || 0)
-			 + s[i][j] * a[j][k];
-                result[1][k][i] = (result[1][k][i] || 0)
-			 + t[i][j] * a[j][k];
+    for (k = 0; k < n-1; k++) {
+        var t_arr = [];
+        var s_arr = [];
+        for (j = 0; j<n; j++) {
+            for (i = 0; i < n-1; i++){
+                s_arr[i] = (s_arr[i] || 0) + s[k][j] * a[j][i];
+                t_arr[i] = (t_arr[i] || 0) + t[k][j]* a[j][i];
             }
         }
+        result[0].push(s_arr);
+        result[1].push(t_arr);
     }
     return result;
 }
@@ -192,8 +186,7 @@ function _getQ(n, f) {
             }
         }
         for (j = 0; j < n - 1; j++) {
-            arr[i].push(f && !parseInt(m_2[j]) ? -1
-                : parseInt(m_2[j]));
+            arr[i].push(f && !parseInt(m_2[j]) ? -1 : parseInt(m_2[j]));
         }
     }
     return arr;
@@ -208,7 +201,7 @@ function findKsi(l) {
             for (k = 0; k < l.length; k++) {
                 lambda[i][j] += l[k][i] *
                 (q[j] == undefined ||
-                    (q[j][k] == undefined) ? 1 : q[j][k])
+                (q[j][k] == undefined) ? 1 : q[j][k])
             }
         }
     }
@@ -228,9 +221,7 @@ function findP(l) {
         for (j = 0; j < q.length; j++) {
             lambda[i][j] = 0;
             for (k = 0; k < l.length; k++) {
-                lambda[i][j] += l[k][i] *
-                (q[j] == undefined ||
-                    (q[j][k] == undefined) ? 1 : q[j][k])
+                lambda[i][j] += l[k][i] * (q[j] == undefined || (q[j][k] == undefined) ? 1 : q[j][k]);
             }
         }
     }
@@ -261,8 +252,7 @@ function _findM(l, v) {
 }
 
 function _findMSum(m) {
-    for (var s = 0, k = m.length; k; 
-	s += Math.abs(m[--k]));
+    for (var s = 0, k = m.length; k; s += Math.abs(m[--k]));
     return s;
 }
 
@@ -276,10 +266,8 @@ function vectorEndPoints(a, l, v) {
     }
     for (k = 0; k < n - 1; k++) {
         for (j = 0; j < n; j++) {
-            result[0][k] = (result[0][k] || 0) +
-                alpha[j] * a[j][k];
-            result[1][k] = (result[1][k] || 0) +
-                beta[j] * a[j][k];
+            result[0][k] = (result[0][k] || 0) + alpha[j] * a[j][k];
+            result[1][k] = (result[1][k] || 0) + beta[j] * a[j][k];
         }
     }
     return result;
@@ -302,16 +290,14 @@ function findVectorD(l, v) {
 function findVectorKsi(l, v, a) {
     var m = _findM(l, v), sum = _findMSum(m),
         norm = _findVectorNorm(v), det = _determinant(a),
-        f = [1, 1, 2, 6, 24, 120, 720, 5040, 40320,
-            362880, 3628800, 39916800, 479001600];
-    return (det * sum) / (norm * 2 * f[v.length - 1]);
+        f = [1, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880, 3628800, 39916800, 479001600];
+    return (Math.abs(det) * sum) / (norm * 2 * f[v.length - 1]);
 }
 
 function findVAlpha(l, v) {
     var i, j, result = 0;
     for (i = 0; i < v.length; i++) {
-        result += _findVectorNorm(v[i]) / 
-		findVectorD(l, v[i]);
+        result += _findVectorNorm(v[i]) / findVectorD(l, v[i]);
     }
     return result;
 }
@@ -342,8 +328,7 @@ function findBarycentricCoords(l, x) {
     for (i = 0; i < l.length; i++) {
         result[i] = 0;
         for (j = 0; j < l[i].length; j++) {
-            result[i] += l[j][i] * (x[j] ==
-		 undefined ? 1 : x[j]);
+            result[i] += l[j][i] * (x[j] == undefined ? 1 : x[j]);
         }
     }
     return result;

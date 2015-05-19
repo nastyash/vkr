@@ -1,0 +1,26 @@
+.dim-div {
+    width: 200px;
+    margin-top: 16px;
+}
+.dim-div .dim-input {
+    width: 30%;
+    display: inline-block;
+    margin-left: 8px;
+}
+.ver-div, .btn-go{
+    margin-top: 16px;
+}
+
+.ver-div .coord-div {
+    display: inline-block;
+    margin-left: 8px;
+    min-width: 100px;
+}
+p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 8.0px Times; color: #000000; -webkit-text-stroke: #000000}
+p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #000000; -webkit-text-stroke: #000000}
+p.p4 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+span.s1 {font-kerning: none}
+span.s2 {font: 12.0px Times; font-kerning: none}
+span.s3 {font-kerning: none; background-color: #c0c0c0}
+span.s4 {font: 8.0px Times; font-kerning: none}

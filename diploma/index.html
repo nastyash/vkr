@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>My test</title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1347.57">
+</head>
+<body>
+<p class="p1"><span class="s1">Simplex dimension:<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s2">x</span><span class="s1"><sup>({{$index+1}})</sup></span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p3"><span class="s3">GO!</span><span class="s2"><span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s2">λ</span><span class="s1"><sub>{{$index+1}}</sub></span><span class="s2"> =<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">d</span><span class="s4"><sub>{{$index+1}}</sub></span><span class="s1"> = {{value}}<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">y</span><span class="s4"><sub>+</sub><sup>{{$index+1}}</sup></span><span class="s1"> = ({{polynomsResult.endPoints[0][$index].join(', ')}}) y</span><span class="s4"><sub>-</sub><sup>{{$index+1}}</sup></span><span class="s1"> = ({{polynomsResult.endPoints[1][$index].join(', ')}})<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1">||P|| = {{polynomsResult.p}}</span></p>
+<p class="p4"><span class="s1">a(S) = {{polynomsResult.alpha}}</span></p>
+<p class="p4"><span class="s1">ξ(S) = {{polynomsResult.ksi}}</span></p>
+<p class="p4"><span class="s1">{{polynomsResult.alpha}} &lt;= {{polynomsResult.ksi}} &lt;= {{polynomsResult.something}}</span></p>
+<p class="p2"><span class="s2">v</span><span class="s1"><sub>{{$index+1}}</sub></span><span class="s2"><span class="Apple-converted-space"> </span></span></p>
+<p class="p3"><span class="s3">GO!</span><span class="s2"><span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1">d</span><span class="s4"><sup>v</sup></span><span class="s1"> = {{vectorResult.d}}}</span></p>
+<p class="p4"><span class="s1">a = ({{vectorResult.endPoints[0].join(', ')}})</span></p>
+<p class="p4"><span class="s1">b = ({{vectorResult.endPoints[1].join(', ')}})</span></p>
+<p class="p4"><span class="s1">Σ(S,v) = {{vectorResult.ksi}}</span></p>
+<p class="p2"><span class="s2">v</span><span class="s1"><sup>({{$index+1}})</sup></span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p3"><span class="s3">GO!</span><span class="s2"><span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1">a(V,S) = {{vResult.alpha}}</span></p>
+</body>
+</html>
